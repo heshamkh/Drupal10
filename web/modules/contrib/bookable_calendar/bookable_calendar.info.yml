@@ -1,0 +1,16 @@
+name: Bookable Calendar
+type: module
+description: 'Create an easy to use bookable calendar for people to book time.'
+package: Other
+core_version_requirement: ^9.3 || ^10
+dependencies:
+  - drupal:text
+  - drupal:views
+  - smart_date:smart_date
+  - smart_date:smart_date_recur
+configure: bookable_calendar.settings_form
+
+# Information added by Drupal.org packaging script on 2023-08-29
+version: '2.2.9'
+project: 'bookable_calendar'
+datestamp: 1693332834
